@@ -92,21 +92,6 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 | Gris texto | `#6B7280` | Hints y texto secundario |
 | Gris borde | `#E5E7EB` | Bordes de campos |
 
-RegistroApp/
-├── app/src/main/
-│   ├── java/com/example/registro/
-│   │   ├── MainActivity.kt
-│   │   └── ResultadoActivity.kt
-│   ├── res/
-│   │   ├── layout/
-│   │   │   ├── activity_main.xml
-│   │   │   └── activity_resultado.xml
-│   │   ├── drawable/
-│   │   └── values/
-│   └── AndroidManifest.xml
-└── gradle/
-└── libs.versions.toml
-
 ---
 
 ## 🚀 Cómo Ejecutar
