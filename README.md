@@ -93,6 +93,8 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 | Gris borde | `#E5E7EB` | Bordes de campos |
 
 ---
+<img width="346" height="730" alt="image" src="https://github.com/user-attachments/assets/35d4cf70-f0cd-4160-b347-400be1ebcb09" />
+
 
 ## 🚀 Cómo Ejecutar
 
