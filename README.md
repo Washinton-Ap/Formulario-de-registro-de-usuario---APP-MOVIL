@@ -95,40 +95,37 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 ---
 
 ## 📁 Estructura del Proyecto
-RegistroApp/
-│
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com/example/registro/
-│           │       ├── MainActivity.kt
-│           │       └── ResultadoActivity.kt
-│           │
-│           ├── res/
-│           │   ├── layout/
-│           │   │   ├── activity_main.xml
-│           │   │   └── activity_resultado.xml
-│           │   ├── drawable/
-│           │   │   ├── ic_cedula.xml
-│           │   │   ├── ic_persona.xml
-│           │   │   ├── ic_calendario.xml
-│           │   │   ├── ic_ciudad.xml
-│           │   │   ├── ic_correo.xml
-│           │   │   ├── ic_telefono.xml
-│           │   │   ├── ic_genero.xml
-│           │   │   ├── ic_usuario.xml
-│           │   │   └── bg_avatar_circle.xml
-│           │   └── values/
-│           │       ├── colors.xml
-│           │       ├── strings.xml
-│           │       └── themes.xml
-│           │
-│           └── AndroidManifest.xml
-│
-└── gradle/
-└── libs.versions.toml
+## 📁 Estructura del Proyecto
 
+    RegistroApp/
+    ├── app/
+    │   └── src/
+    │       └── main/
+    │           ├── java/
+    │           │   └── com/example/registro/
+    │           │       ├── MainActivity.kt
+    │           │       └── ResultadoActivity.kt
+    │           ├── res/
+    │           │   ├── layout/
+    │           │   │   ├── activity_main.xml
+    │           │   │   └── activity_resultado.xml
+    │           │   ├── drawable/
+    │           │   │   ├── ic_cedula.xml
+    │           │   │   ├── ic_persona.xml
+    │           │   │   ├── ic_calendario.xml
+    │           │   │   ├── ic_ciudad.xml
+    │           │   │   ├── ic_correo.xml
+    │           │   │   ├── ic_telefono.xml
+    │           │   │   ├── ic_genero.xml
+    │           │   │   ├── ic_usuario.xml
+    │           │   │   └── bg_avatar_circle.xml
+    │           │   └── values/
+    │           │       ├── colors.xml
+    │           │       ├── strings.xml
+    │           │       └── themes.xml
+    │           └── AndroidManifest.xml
+    └── gradle/
+        └── libs.versions.toml
 
 <img width="346" height="730" alt="image" src="https://github.com/user-attachments/assets/35d4cf70-f0cd-4160-b347-400be1ebcb09" />
 
