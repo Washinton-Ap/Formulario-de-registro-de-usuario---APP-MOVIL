@@ -96,17 +96,36 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 
 ## 📁 Estructura del Proyecto
 RegistroApp/
-├── app/src/main/
-│   ├── java/com/example/registro/
-│   │   ├── MainActivity.kt
-│   │   └── ResultadoActivity.kt
-│   ├── res/
-│   │   ├── layout/
-│   │   │   ├── activity_main.xml
-│   │   │   └── activity_resultado.xml
-│   │   ├── drawable/
-│   │   └── values/
-│   └── AndroidManifest.xml
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/registro/
+│           │       ├── MainActivity.kt
+│           │       └── ResultadoActivity.kt
+│           │
+│           ├── res/
+│           │   ├── layout/
+│           │   │   ├── activity_main.xml
+│           │   │   └── activity_resultado.xml
+│           │   ├── drawable/
+│           │   │   ├── ic_cedula.xml
+│           │   │   ├── ic_persona.xml
+│           │   │   ├── ic_calendario.xml
+│           │   │   ├── ic_ciudad.xml
+│           │   │   ├── ic_correo.xml
+│           │   │   ├── ic_telefono.xml
+│           │   │   ├── ic_genero.xml
+│           │   │   ├── ic_usuario.xml
+│           │   │   └── bg_avatar_circle.xml
+│           │   └── values/
+│           │       ├── colors.xml
+│           │       ├── strings.xml
+│           │       └── themes.xml
+│           │
+│           └── AndroidManifest.xml
+│
 └── gradle/
 └── libs.versions.toml
 
@@ -114,22 +133,27 @@ RegistroApp/
 <img width="346" height="730" alt="image" src="https://github.com/user-attachments/assets/35d4cf70-f0cd-4160-b347-400be1ebcb09" />
 
 
+---
+
 ## 🚀 Cómo Ejecutar
 
-1. Clona el repositorio
+**1. Clona el repositorio**
+
 ```bash
-   git clone https://github.com/Washinton-Ap/Formulario-de-registro-de-usuario---APP-MOVIL.git
+git clone https://github.com/Washinton-Ap/Formulario-de-registro-de-usuario---APP-MOVIL.git
 ```
-2. Abre **Android Studio** → `File → Open` → selecciona la carpeta `RegistroApp`
-3. Clic en **"Trust Project"**
-4. Espera que **Gradle sincronice** (~1-2 minutos)
-5. Selecciona emulador **Pixel 4 (API 37)**
-6. Presiona ▶️ **Run**
+
+**2. Abre en Android Studio**
+File → Open → selecciona la carpeta RegistroApp
+
+**3. Sincroniza Gradle**
+Clic en "Trust Project" → espera ~1-2 minutos
+
+**4. Ejecuta**
+Selecciona Pixel 4 (API 37) → presiona ▶️ Run
 
 ---
 
 ## 📄 Licencia
 
 Proyecto académico — Universidad Técnica Estatal de Quevedo © 2026
----
-
