@@ -93,6 +93,24 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 | Gris borde | `#E5E7EB` | Bordes de campos |
 
 ---
+
+## 📁 Estructura del Proyecto
+RegistroApp/
+├── app/src/main/
+│   ├── java/com/example/registro/
+│   │   ├── MainActivity.kt
+│   │   └── ResultadoActivity.kt
+│   ├── res/
+│   │   ├── layout/
+│   │   │   ├── activity_main.xml
+│   │   │   └── activity_resultado.xml
+│   │   ├── drawable/
+│   │   └── values/
+│   └── AndroidManifest.xml
+└── gradle/
+└── libs.versions.toml
+
+
 <img width="346" height="730" alt="image" src="https://github.com/user-attachments/assets/35d4cf70-f0cd-4160-b347-400be1ebcb09" />
 
 
@@ -115,4 +133,3 @@ Aplicación móvil nativa Android que implementa un formulario completo de inscr
 Proyecto académico — Universidad Técnica Estatal de Quevedo © 2026
 ---
 
-## 📁 Estructura del Proyecto
